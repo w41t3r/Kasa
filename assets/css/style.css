@@ -1,0 +1,53 @@
+/*##################*/
+/*##### HEADER #####*/
+/*##################*/
+.header {
+  border: 2px solid red;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.header__ul {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/**************************************************** Media queries ****************************************************/
+/***************************** Large devices (desktop, more/equal than 1024px) *****************************/
+.under__header {
+  border: 2px solid blue;
+  border-radius: 25px;
+  margin-left: 5%;
+  width: 90%;
+  height: 250px;
+  display: flex;
+}
+.under__header__img {
+  border-radius: 25px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*##################*/
+/*##### FOOTER #####*/
+/*##################*/
+/**************************************************** Media queries ****************************************************/
+/***************************** Large devices (desktop, more/equal than 1024px) *****************************/
+@media all and (min-width: 1024px) {
+  /*##################*/
+  /*##### FOOTER #####*/
+  /*##################*/
+}
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

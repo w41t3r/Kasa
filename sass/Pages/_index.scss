@@ -1,0 +1,14 @@
+.under__header {
+    border: 2px solid blue;
+    border-radius: 25px;
+    margin-left: 5%;
+    width: 90%;
+    height: 250px;
+    display: flex;
+
+    &__img {
+        border-radius: 25px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
