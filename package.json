@@ -6,6 +6,14 @@
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./assets/css/style.css --style expanded"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/w41t3r/Kasa.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w41t3r/Kasa/issues"
+  },
+  "homepage": "https://github.com/w41t3r/Kasa#readme"
 }
